@@ -1,5 +1,7 @@
 package oops.Encapsulation;
 
+import oops.inheritance.MobieAmbulance;
+
 public class AmbApplication {
     public static void main(String[] args) {
         Ambulance amb = new Ambulance();
@@ -13,5 +15,9 @@ public class AmbApplication {
         System.out.println("Type of vehicle " + amb.getType());
         System.out.println("Charges made "+ amb.getCharges());
         System.out.println("Availability "+ amb.getAvailable());
+
+        MobieAmbulance ma = new MobieAmbulance();
+        //ma.charges // not accessible here
+        ma.assignCharge();
     }
 }
