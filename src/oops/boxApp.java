@@ -30,9 +30,23 @@ public class boxApp {
 //CYCLE
     public static void main(String[] args) {
         Cycle c1 = Cycle.createcycle();
-        Cycle c2 = Cycle.createcycle("without-gear", 80,"cyclo");
+        Cycle c2 = Cycle.createcycle(2, 80,"cyclo" ,"red");
         Cycle.printcycle(c1);
         Cycle.printcycle(c2);
+
+        MountainCycle mc = new MountainCycle();
+        mc.brand ="Mountain";
+        mc.breaks = 3;
+        mc.weight = 40;
+        mc.color = "black";
+
+
+        GearCycle gc = new GearCycle();
+        gc.brand = "Gear";
+        gc.breaks = 2;
+        gc.color = "maroon";
+        gc.weight = 32;
+
 
 }
 }
