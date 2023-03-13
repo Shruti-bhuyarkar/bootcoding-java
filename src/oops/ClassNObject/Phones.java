@@ -1,5 +1,5 @@
 package oops.ClassNObject;
-
+//carrier = collaborate with people who share your enthusiasm
 public class Phones {
     String brand;
     String OS;
@@ -17,7 +17,7 @@ public class Phones {
         Phones ph = new Phones();
         ph.brand = "Apple";
         ph.OS = "ios 14";
-        ph.carrier = "Boost Mobile ";
+        ph.carrier = " AT&T";
         ph.model = "iPhone 12 ";
         ph.print();
 
