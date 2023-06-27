@@ -67,5 +67,8 @@ public class application {
         chess.move();
         chess.game();
         chess.print();
+
+
+
     }
 }

@@ -59,6 +59,6 @@ public class Customer {
     private  int vistCount;
     private String city;
 
-    public int getVisitCount() {
-    }
+//    public int getVisitCount() {
+//    }
 }

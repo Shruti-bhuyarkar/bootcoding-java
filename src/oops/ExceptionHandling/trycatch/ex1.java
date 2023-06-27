@@ -1,4 +1,4 @@
-package oops.ExpectionHandling.trycatch;
+package oops.ExceptionHandling.trycatch;
 
 public class ex1 {
     public static void main(String[] args) {
